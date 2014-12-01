@@ -1,0 +1,46 @@
+{
+  "name": "helper-year",
+  "description": "Template helper for adding the current year. Good for adding dates for licenses, copyrights, last modified date, comment dates, etc. Works with handlebars, lo-dash or any template engine that has support for helper functions.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/helper-year",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/helper-year.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/helper-year/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/helper-year/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "year": "^0.2.0"
+  },
+  "devDependencies": {
+    "handlebars": "^2.0.0",
+    "lodash": "^2.4.1",
+    "mocha": "*",
+    "should": "*",
+    "verb": "^0.3.7"
+  },
+  "keywords": [
+    "date",
+    "dates",
+    "engine",
+    "helper",
+    "template",
+    "year"
+  ]
+}
